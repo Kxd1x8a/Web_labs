@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8"> <!-- для кириллицы -->
+    <title>lab 1.2 - Выбор цветов</title>
+</head>
+<body>
+<form action="#" method="get">
+    <fieldset> <!-- сгруппирует элементы формы -->
+        <legend>Выберите цвета:</legend>
+        <p>
+            <label for="red" style="color: red;"> <!-- с помощью for="*" связываю label
+                                     в соответствии с id (*) с нужным input -->
+                <input type="checkbox" id="red" name="colors" value="red">
+                Красный
+            </label><br>
+
+            <label for="green" style="color: green;">
+                <input type="checkbox" id="green" name="colors" value="green">
+                Зеленый
+            </label><br>
+
+            <label for="blue" style="color: blue;">
+                <input type="checkbox" id="blue" name="colors" value="blue">
+                Синий
+            </label><br>
+
+            <label for="other" style="color: gray;">
+                <input type="checkbox" id="other" name="colors" value="other">
+                Другой
+            </label>
+        </p>
+    </fieldset>
+    <input type="submit" value="Готово"> <!-- кнопка отправки формы -->
+</form>
+</body>
+</html>
