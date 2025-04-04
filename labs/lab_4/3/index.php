@@ -2,7 +2,7 @@
 session_start();
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="">
 <head>
     <title>сессии</title>
 </head>
