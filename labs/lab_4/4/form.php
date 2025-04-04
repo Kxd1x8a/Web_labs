@@ -1,6 +1,6 @@
 <?php session_start(); ?>
 <!DOCTYPE html>
-<html>
+<html lang="">
 <head>
     <title>ввод данных</title>
 </head>
